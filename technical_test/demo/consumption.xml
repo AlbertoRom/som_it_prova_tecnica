@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="consumption_demo_1" model="consumption">
+        <field name="date">2020-11-20 18:11:10</field>
+        <field name="product_id" ref="adsl_product_template"/>
+        <field name="quantity">13</field>
+    </record>
+
+    <record id="consumption_demo_2" model="consumption">
+        <field name="date">2020-11-20 18:11:10</field>
+        <field name="product_id" ref="adsl_product_template"/>
+        <field name="quantity">11</field>
+    </record>
+
+    <record id="consumption_demo_3" model="consumption">
+        <field name="date">2020-11-20 18:11:10</field>
+        <field name="product_id" ref="mobile_data_product_template"/>
+        <field name="quantity">23</field>
+    </record>
+</odoo>
